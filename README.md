@@ -50,3 +50,8 @@ Fire up the console again.  You should be able to access the config data:
     > Rails.application.secrets.sample_api_key
     => "DUMMY"
 
+The krytos gem comes with a capistrano task to simplify deploying the key file.
+Add this line to your Capfile:
+
+    require 'kryptos/capistrano'
+
