@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Kryptos::VERSION
   gem.authors       = ["wlipa"]
   gem.email         = ["dojo@masterleep.com"]
-  gem.description   = %q{Supports keeping your application configuration secrets in source control, but encrypted using a key from the database.}
-  gem.summary       = %q{Encrypt app secrets in source control using a db based key}
+  gem.description   = %q{Supports keeping your secrets.yml in source control, but encrypted using a key from the file system.}
+  gem.summary       = %q{Encrypt app secrets in source control using a file based key that is not version controlled}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
